@@ -1,0 +1,6 @@
+num1=int(input("Enter your First Number:"))
+num2=int(input("Enter your Second Number:"))
+print("Addition of two given number is:",num1+num2)
+print("Subtraction of two  given  number is:",num1-num2)
+print("Multiplication of two  given  number is:",num1*num2)
+print("Division of two  given  number is:",num1/num2 if num2!=0 else "Error:Division by Zero is not possible")
